@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+
+<test name="Regression1" >
+  <classes>
+ 
+    <class name="testng.NewTest">
+      <methods>
+        <include name="a" />
+        <include name="c" />
+      </methods>
+    </class>
+ 
+  </classes>
+</test>
+
+</suite>
